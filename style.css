@@ -1,0 +1,29 @@
+*{
+    margin: 2;
+    padding:10;
+    outline: 1;
+    box-sizing: border-box;
+}
+div{
+    height: 1000px;
+    background: gray;
+    background: url(img.jpg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-attachment: fixed;
+    background-position: 50% center;
+    border-width: 20px;
+    border-style: groove;
+    border-color: blueviolet;
+    padding: 20px;
+    outline: 10px solid orange;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 60px;
+    border-radius: 30px 40px;
+}
+.circle{
+    width: 80%;
+    height: 300px;
+    border-radius: 10px 20px 30px 40px;
+    background: red;
+}
